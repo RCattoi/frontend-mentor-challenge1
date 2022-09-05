@@ -89,7 +89,7 @@ h1 {
 }
 
 .botao_comprar::before {
-  content: url("./img/icon-cart.SVG");
+  content: url("/frontend-mentor-challenge1/img/icon-cart.SVG");
   position: absolute;
   left: 55px;
 }
@@ -106,7 +106,7 @@ h1 {
     min-width: 349.7px;
   }
   img {
-    content: url("./img/image-product-mobile.JPG");
+    content: url("/frontend-mentor-challenge1/img/image-product-mobile.JPG");
     border-radius: 10px 10px 0px 0px;
   }
   .painel {
