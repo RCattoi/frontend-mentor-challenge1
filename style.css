@@ -6,8 +6,9 @@ a {
   text-decoration: none;
 }
 body {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  display: grid;
   margin: 0px;
   place-items: center;
   height: 100vh;
@@ -43,6 +44,7 @@ h1 {
   max-width: 11ch;
   color: hsl(212, 21%, 14%);
   font-family: "Fraunces";
+  font-weight: bold;
 }
 .conteudo div {
   font-size: 14px;
@@ -51,8 +53,6 @@ h1 {
   line-height: 1.5;
   font-weight: 700;
   color: hsl(228, 12%, 48%);
-
-  /* padding: 0px 15px; */
 }
 
 .valor_desconto {
